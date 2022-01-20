@@ -1,0 +1,10 @@
+.schedule{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.asd{
+    display:flex;
+    gap: 20px;
+
+}

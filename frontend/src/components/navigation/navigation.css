@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1.5% 1%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family: "bello-pro-1", "bello-pro-2", sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  color: rgb(216, 215, 215);
+  height: 50px;
+}
+
+.logo p{
+  color: black;
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+.logo-img {
+  margin-top: -15px;
+  width: 170px;
+  height: 82px;
+  margin-left: 3%;
+}
+
+.logo span {
+  color: #5383d3;
+  font-family: "Cookie", cursive;
+}
+.nav {
+  text-decoration: none;
+}
+
+.nav ul {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  gap: 15px;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  margin-top: 2%;
+}
+
+.nav ul li a {
+  color: #52585c;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.nav ul li a:hover {
+  color: #86cb6a;
+}
